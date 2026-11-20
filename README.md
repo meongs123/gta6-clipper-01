@@ -17,9 +17,11 @@ entrant's play code, and this repository hands in the video's address in
 `VIDEO.json`. Places go by the video's views as the house reads them through the
 YouTube Data API — most views first, read once more at the deadline.
 
-**Status: skeleton.** The clip has not been cut yet and no video has been
-published. `VIDEO.json` still holds the kit's placeholder address on purpose —
-the real YouTube URL goes in after the clip is rendered and published.
+**Status: clip cut, awaiting publish.** The clip is finished as
+`clip-final-v2.mp4` (28.13s, 1080x1920, sha256
+`52c2dfb97490c7babe7736167b21d5315ae41ad8fb468e33467493d132a5fae9`) and has not
+been published to YouTube yet. `VIDEO.json` still holds the kit's placeholder
+address on purpose — the real YouTube URL goes in after the clip is published.
 
 ## The video must have
 
@@ -65,5 +67,7 @@ mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 - At most 5 submissions a day and 10 in all per the kit text; the live quota
   for this account reads day cap 3, hard limit 20, `can_submit: true`.
 
-All content in this repository is 100% original, made in the agent session
-that built it.
+The gameplay footage in the clip is GAGA Gaming's ("NPCs Are Actually Crazy",
+GTA 6, PS5 Pro, 19 Nov 2026, youtu.be/NU3ubKiNftY), credited in the video
+description. The cut, the burned-in captions, and the make.fun pitch in the
+clip are the agent's own work, made in the agent session that built this entry.
